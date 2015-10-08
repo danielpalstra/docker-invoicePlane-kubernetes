@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: invoiceplane-app
+  labels:
+    name: invoiceplane-app
+spec:
+  containers:
+    - image: 1twitif/invoiceplane
+      name: invoiceplane-app
+      ports:
+        - containerPort: 80
+          name: invoiceplane
