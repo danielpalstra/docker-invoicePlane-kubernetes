@@ -13,3 +13,6 @@ The automated build is available on Docker Hub : [1twitif/invoiceplane](https://
 PS : defaults password should be changed in `docker-compose.yml`
 
 Feel free to customize it as you need !
+
+# Invoice Plane on Kubernetes in GCE
+See GCD.md for a guide on how to setup InvoicePlane with a MySQL backend in GCE and Kubernetest
